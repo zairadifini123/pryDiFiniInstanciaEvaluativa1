@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace pryDiFiniInstanciaEvaluativa1
 {
-    public partial class frmGestionDeRubros : Form
+    public partial class frmInformacionDelAlumno : Form
     {
-        public frmGestionDeRubros()
+        public frmInformacionDelAlumno()
         {
             InitializeComponent();
         }
