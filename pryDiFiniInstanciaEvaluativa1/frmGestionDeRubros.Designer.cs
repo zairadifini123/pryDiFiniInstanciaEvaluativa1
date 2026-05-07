@@ -39,7 +39,7 @@
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.lblCantidadArticulosListados = new System.Windows.Forms.Label();
-            this.lblTotal = new System.Windows.Forms.Label();
+            this.lblTotalValorStock = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.btnMostrar = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
@@ -131,13 +131,13 @@
             this.lblCantidadArticulosListados.Size = new System.Drawing.Size(122, 27);
             this.lblCantidadArticulosListados.TabIndex = 4;
             // 
-            // lblTotal
+            // lblTotalValorStock
             // 
-            this.lblTotal.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblTotal.Location = new System.Drawing.Point(437, 363);
-            this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(122, 27);
-            this.lblTotal.TabIndex = 6;
+            this.lblTotalValorStock.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblTotalValorStock.Location = new System.Drawing.Point(437, 363);
+            this.lblTotalValorStock.Name = "lblTotalValorStock";
+            this.lblTotalValorStock.Size = new System.Drawing.Size(122, 27);
+            this.lblTotalValorStock.TabIndex = 6;
             // 
             // label3
             // 
@@ -177,6 +177,7 @@
             this.btnExportar.TabIndex = 9;
             this.btnExportar.Text = "Exportar";
             this.btnExportar.UseVisualStyleBackColor = true;
+            this.btnExportar.Click += new System.EventHandler(this.btnExportar_Click);
             // 
             // lnkInformacionDelAlumno
             // 
@@ -198,7 +199,7 @@
             this.Controls.Add(this.btnExportar);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnMostrar);
-            this.Controls.Add(this.lblTotal);
+            this.Controls.Add(this.lblTotalValorStock);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lblCantidadArticulosListados);
             this.Controls.Add(this.label1);
@@ -228,7 +229,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblCantidadArticulosListados;
-        private System.Windows.Forms.Label lblTotal;
+        private System.Windows.Forms.Label lblTotalValorStock;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnMostrar;
         private System.Windows.Forms.Button btnSalir;
